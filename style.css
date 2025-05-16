@@ -5,6 +5,8 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 
 body {
@@ -60,17 +62,17 @@ header nav ul li a:hover {
 }
 
 header .btn-download {
-  background-color: transparent;
-  border: 2px solid #ff9900;
-  color: #ff9900;
-  padding: 10px 20px;
-  font-weight: bold;
-  transition: background-color 0.3s, color 0.3s;
-  border-radius: 5px;
-  /* display: inline-block; */
-  text-align: center; /* Centraliza o texto no botão */
-  width: 100%; /* Ocupa a mesma largura dos outros itens */
-  box-sizing: border-box; /* Inclui padding na largura total */
+      background-color: transparent;
+    border: 2px solid #ff9900;
+    color: #ff9900;
+    font-weight: bold;
+    transition: background-color 0.3s, color 0.3s;
+    border-radius: 5px;
+    width: 150px;
+    height: 40px;
+    font-size: 1.5rem;
+    cursor: pointer;
+
 }
 
 header .btn-download:hover {
@@ -141,7 +143,7 @@ header .btn-download:hover {
 }
 
 .hero-text .btn-hero {
-  padding: 25px 30px;
+  padding: 20px 25px;
   background-color: #ff9900;
   color: #213e5b;
   border-radius: 5px;
