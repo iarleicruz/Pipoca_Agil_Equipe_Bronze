@@ -8,13 +8,18 @@
     top: 230px;
     right: 100px;
     }
+
     .hero-text h2 {
     font-size: 3.5rem;
     line-height: 1.3;
     }
-    sobre-text {
+    
+    .sobre-text {
     width: 50%;
+    padding: 10px;
     }
+
+
 
     }
   /* Estilos específicos para dispositivos com largura entre 375px e 812px */
