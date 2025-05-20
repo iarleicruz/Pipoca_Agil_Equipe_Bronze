@@ -201,7 +201,7 @@ header .btn-download:hover {
   transform: all 0.3s ease; /* Suaviza as transições de redimensionamento */
 }
 
-.sobre-image img {
+.sobre-image picture img {
   width: 100%; /* Preenche a largura */
   height: 100%; /* Preenche a altura */
   object-fit: cover; /* Ajusta a proporção sem distorcer */
@@ -405,7 +405,6 @@ header .btn-download:hover {
 #cta .btn-cta {
   display: inline-block;
   width: 292px;
-  height: 48px;
   padding: 10px;
   font-size: 16px;
   font-weight: bold;

@@ -18,10 +18,200 @@
     width: 50%;
     padding: 10px;
     }
+   .sobre-text p {
+    font-size: 30px;
+    line-height: 1.5;
+    color: #12263a;
+    /* word-spacing: 5px; */
+    width: 600px;
+    }
+    hr.line__1 {
+    background-image: url(./images/Line6.png);
+    width: 1122px;
+    margin: auto;
+    height: 4px;
+    border-radius: 50%;
+    position: relative;
+    bottom: 50px;
+    }
 
-
+    .objetivos-image img {
+    width: 500px;
+    position: absolute;
+    bottom: -3500px;
+    left: 30px;
+    z-index: -1;
+    }
 
     }
+
+  /* Estilos específicos para dispositivos com largura entre 768px e 1024px */
+  
+    @media (max-width: 768px) and (max-height: 1024px){
+
+
+    
+      #hero {
+      padding: 50px;
+      height: 85vh;
+    }
+    .section__container {
+    padding: 0
+    }
+
+    .container-header {
+      display: flex;
+      align-items: center;
+    padding: 30px;
+    }
+
+    .header-logo {
+    display: flex;
+    align-items: center;
+    }   
+
+    #hero .hero-text {
+    display: flex;
+    flex-direction: column;
+    width: 700px;
+    height: 450px;
+    margin-top: 250px;
+}
+.hero-text h2 {
+    font-size: 1.8rem;
+    color: #fff;
+    line-height: 1.8;
+    font-weight: bold;
+    max-width: 700px;
+}
+  .hero-text .btn-hero {
+    padding: 15px;
+    background-color: #ff9900;
+    color: #213e5b;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    transition: background-color 0.3s;
+    width: 150px;
+    text-align: center;
+    margin-top: 50px;
+}
+    .hero-image img {
+    width: 380px;
+    position: absolute;
+    top: 350px;
+    right: 10px;
+    height: 870px;
+}
+.sobre-text h2 {
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 100%;
+    letter-spacing: 2px;
+    margin: 30px 0 50px;
+    color: #12263a;
+    text-align: right;
+    width: 560px;
+    overflow: hidden;
+}
+  .sobre-text p {
+    position: relative;
+    left: 400px;
+    font-size: 1.7rem;
+    line-height: 1.5;
+    color: #12263a;
+    margin-bottom: 1;
+    /* word-spacing: 5px; */
+    width: 340px;
+}
+ .objetivos-image img {
+    width: 350px;
+    position: absolute;
+    bottom: -3850px;
+    left: 50px;
+    z-index: -1;
+    }
+
+    .gallery img {
+    width: 1200px;
+    position: relative;
+    right: -35px;
+    }
+
+    .servicos-header img {
+    width: 600px;
+    margin: 80px 0 100px 0;
+    }
+
+    .servicos-grid {
+    display: flex;
+    margin-top: 30px;
+    /* gap: 5px; */
+    }
+
+    hr {
+    background-image: url(./images/Line6.png);
+    width: 500px;
+    margin: auto;
+    height: 4px;
+    border-radius: 50%;
+}
+hr.line__1 {
+    background-image: url(./images/Line6.png);
+    width: 500px;
+    margin: auto;
+    height: 4px;
+    border-radius: 50%;
+    position: relative;
+    bottom: 150px;
+}
+    .facil-acesso-text img,
+     .facil-acesso-image img{
+      width: 350px;
+      
+    }
+    .facil-acesso-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    }
+
+     .objetivos-image img,
+     .objetivos-text img{
+      width: 350px;
+      display: flex;
+      gap: 5px;
+      
+    }
+     .objetivos-image img{
+      position: absolute;
+      top: 4200px;
+      left: 15px;
+      height:450px;
+   
+     }
+     #cta h2 {
+    font-family: "Roboto", sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    line-height: 120%;
+    }
+
+    #cta p {
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    margin-bottom: 30px;
+   }
+   .footer-bottom p {
+    font-size: 1.2rem;
+    margin: 0;
+}
+    }
+
+
   /* Estilos específicos para dispositivos com largura entre 375px e 812px */
   
     @media (max-width: 375px) and (max-height: 812px){
