@@ -1,43 +1,32 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta
-      name="description"
-      content="CorraÁgil: A solução ideal para corredores de todos os níveis. Baixe já!"
-    />
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
     <title>CorraÁgil</title>
-    <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="responsive.css" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
-      integrity="sha512-..."
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
-  </head>
-  <body>
-    <!-- HEADER -->
-    <header>
+</head>
+<body>
+        <header>
       <div class="container-header">
         <div class="header-logo">
           <img src="images/logo.png" alt="Logo CorraÁgil" class="logo" />
+          <i class="bx bx-menu" id="menu-icon"></i>
         </div>
-        <nav>
+       
+
+        <nav class="navbar active">
           <ul>
             <li><a href="#servicos">Serviços</a></li>
             <li><a href="#sobre">Sobre</a></li>
-            <!-- <li><a href="#contatos">Contatos</a></li> -->
-            <!-- <li><a href="#" class="btn-download">Download</a></li> -->
-            <button class="btn-download">Download</btn>
+           <a href="#download"><button class="btn-download">Download</button></a>
           </ul>
         </nav>
+       
       </div>
     </header>
 
-    <!-- HERO SECTION -->
     <section id="hero">
       <div class="section__container">
         <div class="hero-content">
@@ -57,10 +46,7 @@
       </div>
     </section>
 
-    <!-- SOBRE SECTION -->
     <section id="sobre">
-      <!-- <div class="container"> -->
-        <!-- <div class="sobre-content"> -->
           <div class="sobre-image">
            
              <picture>
@@ -76,37 +62,32 @@
           <div class="sobre-text">
             <h2>Sobre</h2>
             <p>
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; O <span>CorraÁgil</span> é a solução definitiva para corredores de
+              &nbsp;&nbsp;&nbsp;&nbsp; O <span>CorraÁgil</span> é a solução definitiva para corredores de
               todos os níveis que buscam maximizar seu desempenho e experiência
               de corrida, combinando planejamento de treinos personalizados,
               monitoramento avançado de desempenho e uma comunidade global de
               corredores apaixonados.
             </p>
             <p>
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;O aplicativo não apenas registra suas corridas, mas o capacita a
+              &nbsp;&nbsp;&nbsp;&nbsp;O aplicativo não apenas registra suas corridas, mas o capacita a
               alcançar novos recordes pessoais e se conectar com outros
               corredores em todo o mundo.
             </p>
           </div>
-        <!-- </div> -->
-      <!-- </div> -->
     </section>
 
 
 
-    <!-- GALERIA SECTION -->
     <section id="peoples-running">
       <div class="container">
         <div class="gallery">
-          <img
-            src="images/people_running.png"
-            alt="Um grupo de imagens de corredores"
-          />
+          <div><img src="images/homem-praia.png" alt="Homem correndo na praia"></div>
+          <div><img src="images/grupo-rua.png" alt="Grupo correndo na rua"></div>
+          <div><img src="images/dupla-rua.png" alt="Dupla correndo na rua"></div>
         </div>
       </div>
     </section>
     <hr>
-    <!-- INSPIRE-SE SECTION -->
     <section id="inspire-se" class="bg-dark">
       <div class="container">
         <div class="inspire-text">
@@ -120,7 +101,6 @@
 
     <hr>
 
-    <!-- SERVIÇOS SECTION -->
     <section id="servicos">
       <div class="container">
         <div class="servicos-header">
@@ -148,16 +128,23 @@
           </div>
         </div>
       </div>
-    
+ 
     </section>
     <hr class="line__1">
 
-    <!-- FÁCIL ACESSO SECTION -->
+
     <section id="facil-acesso">
       <div class="container">
         <div class="facil-acesso-content">
           <div class="facil-acesso-text">
-            <img src="images/Content.png" alt="Imagem fácil acesso" />
+             <h2>Fácil Acesso</h2>
+             <h3>Inicie sua jornada em poucos passos</h3>
+             <ul>
+              <li>Cadastre-se no aplicativo</li>
+              <li>Complete seu perfil</li>
+              <li>Defina seus objetivos</li>
+              <li>comece a correr</li>
+             </ul>
           </div>
           <div class="facil-acesso-image">
             <img src="images/teste.png" alt="Telas do aplicativo" />
@@ -166,7 +153,6 @@
       </div>
     </section>
 
-    <!-- CONQUISTE SEUS OBJETIVOS SECTION -->
     <section id="conquiste-objetivos">
       <div class="container">
         <div class="objetivos-container">
@@ -175,17 +161,20 @@
               <img src="images/teste_1.png" alt="Telas do aplicativo" />
             </div>
             <div class="objetivos-text">
-              <img
-                src="images/Group 27.png"
-                alt="Texto Conquiste seus objetivos"
-              />
+              <h2>Conquiste seus objetivos</h2>
+             <h3>Mantenha a forma com a ajuda do CorrÁgil</h3>
+             <ul>
+              <li>Cadastro de usuário, corrida, rotas e grupos</li>
+              <li>Rastreamwento em tempo real</li>
+              <li>História de corridas</li>
+              <li>Acompanhe e alcance seu objtivo</li>
+             </ul>
             </div>
           </div>
         </div>
       </div>
     </section>
-
-    <!-- Call to Action Section -->
+  
     <section id="cta" class="bg-orange">
       <div class="container">
         <h2>
@@ -198,84 +187,17 @@
           deixe para depois de cuidar da pessoa mais importante para você, você
           mesmo!
         </p>
-        <a href="#" class="btn-cta">Download</a>
+        <a href="" class="btn-cta" id="download">Download</a>
       </div>
     </section>
 
-    <!-- FOOTER -->
     <footer>
-      <!-- <div class="container">
-        <div class="footer-cols">
-          <div class="col">
-            <img
-              src="images/logo.png"
-              alt="Logo CorraÁGIL"
-              class="footer-logo"
-            />
-          </div>
-          <div class="footer-col">
-            <h3>Institucional</h3>
-            <ul>
-              <li>O CorrÁgil</li>
-              <li>A equipe</li>
-              <li>O negócio</li>
-              <li>Imprensa</li>
-            </ul>
-          </div>
-          <div class="footer-col">
-            <h3>Contato</h3>
-            <ul>
-              <li>Atendimento</li>
-              <li>Suporte</li>
-              <li>Anúncios</li>
-              <li>SAC</li>
-            </ul>
-          </div>
-          <div class="footer-col">
-            <h3>Aplicativos</h3>
-            <ul>
-              <li>Download</li>
-              <li>
-                Reportar um <br />
-                problema
-              </li>
-              <li>Tutoriais</li>
-            </ul>
-          </div>
-          <div class="col">
-            <h3>Não fique de fora das nossas novidades</h3>
-            <p>
-              Inscreva-se na nossa newsletter e fique por dentro de nossos
-              <br />
-              lançamentos.
-            </p>
-            <form class="newsletter-form">
-              <input type="email" placeholder="Digite seu e-mail" />
-              <button type="submit" class="btn-assinar">Assinar</button>
-            </form>
-          </div>
-        </div> -->
-        <!-- <hr /> -->
+
         <div class="footer-bottom">
           <p>© 2025. Todos os direitos reservados.</p>
-          <!-- <ul class="footer-links">
-            <li><a href="#">Política de Privacidade</a></li>
-            <li><a href="#">Termos e Condições</a></li>
-            <li><a href="$">Política de Cookies</a></li>
-          </ul>
-          <div class="social-links">
-            <a href="#" aria-label="Facebook"
-              ><i class="fa-brands fa-facebook"></i
-            ></a>
-            <a href="#" aria-label="Instagram"
-              ><i class="fa-brands fa-instagram"></i
-            ></a>
-            <a href="#" aria-label="twitter"
-              ><i class="fa-brands fa-twitter"></i
-            ></a>
-          </div>
-        </div> -->
+ 
       </div>
-    </footer>
-  </body>
+    </footer> 
+    <script src="index.js"></script>
+</body>
 </html>
