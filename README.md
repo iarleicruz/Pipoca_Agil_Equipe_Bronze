@@ -1,1 +1,1 @@
-# Pipoca_Agil_Equipe_Bronze-
+Repositório destinado ao desenvolvimento de MVP voltado um aplicativo de corrida, realizado através do projeto Pipoca Ágil, no grupo Pipoca_Agil_Equipe_Bronze, que tem o objetivo de proporcionar uma experiência prática para quem está em transição de carreira para a área de tecnologia.
