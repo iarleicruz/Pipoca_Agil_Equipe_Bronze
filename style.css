@@ -70,7 +70,7 @@ header nav ul li a:hover {
 }
 
 header .btn-download {
-      background-color: transparent;
+    background-color: transparent;
     border: 2px solid #ff9900;
     color: #ff9900;
     font-weight: bold;
@@ -882,15 +882,21 @@ header .btn-download:hover {
 .sobre-text h2 {
 
 margin: 50px;
+width: 120px;
+font-size: 32px;
+right: 200px;
+position: relative;
 
 }
 .sobre-text p {
-        font-size: 2rem;
-        line-height: 1.5;
+        font-size: 1rem;
+        line-height: 1.6;
         color: #12263a;
         margin: auto;
         word-spacing: 0px;
-        width: 600px;
+        width: 350px;
+        position: relative;
+        left: -180px!important;
     }
 
 
@@ -1113,12 +1119,12 @@ margin: 50px;
 
 
     }
-     .hero-image img {
-        width: 200px;
-        height: 400px;
-        top: 620px;
-        left: 110px;
-    }
+  .hero-image img {
+    width: 200px;
+    height: 400px;
+    top: 620px;
+    left: 110px;
+}
 
  
    
@@ -1232,10 +1238,7 @@ margin: 50px;
         margin-left: 20px;
         font-size: 1.1rem;
     }
-    /* .facil-acesso-image img {
-      width: 500px;
-   
-    } */
+ 
 
     .objetivos-content {
     justify-content: center;
@@ -1685,6 +1688,7 @@ margin: 50px;
         top: 515px;
         left: 95px;
     }
+
         .sobre-text p {
         font-size: 1rem;
         line-height: 1.6;
