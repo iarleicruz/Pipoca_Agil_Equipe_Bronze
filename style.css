@@ -1519,7 +1519,7 @@ margin: 50px;
     .objetivos-image img {
       width: 250px;
       height: 250px;
-      top: 4650px;
+      top: 4520px;
       left: 80px;
 
     }
@@ -1629,6 +1629,40 @@ margin: 50px;
     }
     }
 
+    @media(max-width: 393px) and (max-height: 851px){
+        
+      .hero-image img {
+        width: 200px;
+        height: 400px;
+        top: 545px;
+        left: 110px;
+    }
+      
+    .sobre-text p {
+        font-size: 1rem;
+        line-height: 1.6;
+        color: #12263a;
+        margin: auto;
+        word-spacing: 0px;
+        width: 350px;
+        left: 0px;
+    }
+    hr.line__1 {
+        background-image: url(./images/Line6.png);
+        width: 250px;
+        margin: auto;
+        height: 4px;
+        border-radius: 50%;
+        position: relative;
+        bottom: -170px;
+    }
+    .objetivos-image img {
+        width: 250px;
+        height: 250px;
+        top: 4250px;
+        left: 70px;
+    }
+    }
     @media(max-width:375px) and (max-height:812px){
 
       .hero-text .btn-hero {
@@ -1768,6 +1802,39 @@ margin: 50px;
     }
     }
 
+    @media(max-width: 360px) and (max-height: 880px){
+      .hero-content {
+        display: block;
+        padding: 0;
+    }
+        .hero-image img {
+        width: 200px;
+        height: 400px;
+        top: 569px;
+        left: 80px;
+    }
+        .objetivos-image img {
+        width: 250px;
+        height: 250px;
+        top: 4390px;
+        left: 55px;
+    }
+        #cta h2 {
+        font-family: "Roboto", sans-serif;
+        font-size: 26px;
+        font-weight: 700;
+        margin-bottom: 20px;
+        line-height: 120%;
+    }
+        #cta p {
+        font-family: "Roboto", sans-serif;
+        font-size: 16px;
+        margin: 30px;
+        width: 250px;
+    }
+    }
+
+    
 @media(max-width: 360px) and (max-height: 800px){
 
       #hero {
@@ -1779,12 +1846,14 @@ margin: 50px;
     .hero-image img {
         width: 200px;
         height: 400px;
-        top: 590px;
+        top: 580px;
         left: 80px;
     }
     .sobre-text h2 {
         width: 120px;
         font-size: 26px;
+        position: relative;
+        right: 200px;
        
     }
     
@@ -1795,7 +1864,8 @@ margin: 50px;
         margin: auto;
         word-spacing: 0px;
         width: 300px;
-        left: 0px;
+        position: relative;
+        left: -150px!important;
     }
 
     #inspire-se {
@@ -1842,7 +1912,7 @@ margin: 50px;
     .objetivos-image img {
         width: 250px;
         height: 250px;
-        top: 4040px;
+        top: 3950px!important;
         left: 50px;
     }
     facil-acesso-text, .objetivos-text {
@@ -1899,7 +1969,8 @@ margin: 50px;
         .sobre-text h2 {
         width: 120px;
         font-size: 26px;
-        right: 0px;
+        position: relative;
+        right: 200px;
     }
     .sobre-text p {
         font-size: 1rem;
@@ -1908,7 +1979,7 @@ margin: 50px;
         margin: auto;
         word-spacing: 0px;
         width: 300px;
-        left: 0px;
+        left: -150px;
     }
 
     #servicos {
@@ -1923,7 +1994,7 @@ margin: 50px;
         .objetivos-image img {
         width: 250px;
         height: 250px;
-        top: 3970px;
+        top: 3890px;
         left: 50px;
     }
 
