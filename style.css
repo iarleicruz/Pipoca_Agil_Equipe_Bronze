@@ -1692,6 +1692,7 @@ margin: 50px;
         margin: auto;
         word-spacing: 0px;
         width: 350px;
+        position: relative;
         left: 0px;
     }
     .objetivos-image img {
