@@ -1685,6 +1685,15 @@ margin: 50px;
         top: 515px;
         left: 95px;
     }
+        .sobre-text p {
+        font-size: 1rem;
+        line-height: 1.6;
+        color: #12263a;
+        margin: auto;
+        word-spacing: 0px;
+        width: 350px;
+        left: 0px;
+    }
     .objetivos-image img {
         width: 250px;
         height: 250px;
