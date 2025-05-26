@@ -1912,7 +1912,7 @@ margin: 50px;
     .objetivos-image img {
         width: 250px;
         height: 250px;
-        top: 3950px!important;
+        top: 3950px;
         left: 50px;
     }
     facil-acesso-text, .objetivos-text {
@@ -1962,8 +1962,8 @@ margin: 50px;
     .hero-image img {
         width: 200px;
         height: 400px;
-        top: 575px;
-        left: 80px;
+        top: 540px;
+        left: 70px;
     }
 
         .sobre-text h2 {
