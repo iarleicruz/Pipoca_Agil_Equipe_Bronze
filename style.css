@@ -1768,6 +1768,180 @@ margin: 50px;
     }
     }
 
+@media(max-width: 360px) and (max-height: 800px){
+
+      #hero {
+          height: 95vh;
+        display: flex;
+        justify-content: center;
+    }
+
+    .hero-image img {
+        width: 200px;
+        height: 400px;
+        top: 590px;
+        left: 80px;
+    }
+    .sobre-text h2 {
+        width: 120px;
+        font-size: 26px;
+       
+    }
+    
+     .sobre-text p {
+        font-size: 1rem;
+        line-height: 1.6;
+        color: #12263a;
+        margin: auto;
+        word-spacing: 0px;
+        width: 300px;
+        left: 0px;
+    }
+
+    #inspire-se {
+    padding: 50px 0;
+    text-align: center;
+    position: relative;
+}
+    #servicos {
+        height: 80vh;
+        padding: 0;
+    }
+      .servicos-header img {
+        width: 300px;
+        margin: 50px 0 20px 0;
+    }
+
+        .servico-item {
+        text-align: center;
+        padding: 10px;
+    }
+
+    #facil-acesso {
+    padding: 0px 0;
+    color: #fff;
+}
+
+.facil-acesso-text h2, .objetivos-text h2 {
+        font-size: 1.5rem;
+        margin-bottom: 20px;
+        padding: 20px;
+    }
+        .facil-acesso-text h3, .objetivos-text h3 {
+        font-size: 1.3rem;
+        margin-bottom: 10px;
+        color: #ffa500;
+        width: 220px;
+    }
+
+    #conquiste-objetivos {
+        padding: 0px 0;
+        color: #fff;
+        height: 85vh;
+    }
+    .objetivos-image img {
+        width: 250px;
+        height: 250px;
+        top: 4040px;
+        left: 50px;
+    }
+    facil-acesso-text, .objetivos-text {
+        width: 200px;
+    }
+    .facil-acesso-text ul li, .objetivos-text ul li {
+        list-style-image: url(images/Ellipse.png);
+        padding: 5px;
+        margin-left: 20px;
+        font-size: 1rem;
+    }
+        #cta h2 {
+        font-family: "Roboto", sans-serif;
+        font-size: 26px;
+        font-weight: 700;
+        margin-bottom: 20px;
+        line-height: 120%;
+    }
+        #cta p {
+        font-family: "Roboto", sans-serif;
+        font-size: 16px;
+        margin: 30px;
+        width: 250px;
+    }
+        #cta .btn-cta {
+        display: inline-block;
+        width: 100px;
+        padding: 5px;
+        font-size: 16px;
+        font-weight: bold;
+        color: #000;
+        background-color: transparent;
+        border: 2px solid #000;
+        border-radius: 8px;
+        text-align: center;
+        cursor: pointer;
+    }
+}
+
+@media(max-width: 360px) and (max-height: 780px){
+#hero {
+        /* padding: 50px; */
+        height: 95vh;
+        display: flex;
+        justify-content: center;
+    }
+    .hero-image img {
+        width: 200px;
+        height: 400px;
+        top: 575px;
+        left: 80px;
+    }
+
+        .sobre-text h2 {
+        width: 120px;
+        font-size: 26px;
+        right: 0px;
+    }
+    .sobre-text p {
+        font-size: 1rem;
+        line-height: 1.6;
+        color: #12263a;
+        margin: auto;
+        word-spacing: 0px;
+        width: 300px;
+        left: 0px;
+    }
+
+    #servicos {
+        height: auto;
+    }
+
+    .facil-acesso-text h2, .objetivos-text h2 {
+        font-size: 1.5rem;
+        margin-bottom: 20px;
+        padding-top: 20px;
+    }
+        .objetivos-image img {
+        width: 250px;
+        height: 250px;
+        top: 3970px;
+        left: 50px;
+    }
+
+        #cta h2 {
+        font-family: "Roboto", sans-serif;
+        font-size: 26px;
+        font-weight: 700;
+        margin-bottom: 20px;
+        line-height: 120%;
+    }
+
+        #cta p {
+        font-family: "Roboto", sans-serif;
+        font-size: 16px;
+        margin: 30px;
+        width: 250px;
+    }
+}
     @media(max-width: 360px) and (max-height: 720px){
 
 
